@@ -1,0 +1,145 @@
+.hrline {
+  border-bottom: 1px solid #9c9b9b;
+  margin-top: 5%;
+}
+.center-icon {
+  text-align: center;
+}
+.icon-clr {
+  color: #9c9b9b;
+}
+.titlesec {
+  padding-top: 2px;
+  font-size: 14px;
+  font-weight: 200;
+}
+.main-content {
+  text-align: center;
+  margin-top: 25px;
+}
+.user-name {
+  margin-top: 8px;
+  font-size: 15px;
+  font-weight: 400;
+  margin-bottom: -1px;
+}
+
+.user-name2 {
+  margin-top: 8px;
+  font-size: 13px;
+  font-weight: 400;
+  margin-bottom: -1px;
+}
+.titlesec2 {
+  padding-top: 2px;
+  font-size: 13px;
+  font-weight: 200;
+}
+#profileImage {
+  /* width: 6rem;
+  height: 6rem;
+  border-radius: 50%;
+  background: #0c540c;
+  font-size: 3.5rem;
+  color: #fff;
+  text-align: center;
+  line-height: 10rem;
+  margin: 2rem 0; */
+  width: 3.5rem;
+  height: 3.5rem;
+  border-radius: 50%;
+  background: #0c540c;
+  font-size: 1.5rem;
+  font-weight: 600;
+  color: #fff;
+  text-align: center;
+  line-height: 10rem;
+  border-radius: 50%;
+  line-height: 10rem;
+  margin: 0 auto;
+  padding: 10px;
+  position: relative;
+  background-color: rgb(248, 158, 158);
+}
+.profile-image {
+  top: 160px;
+  left: 160px;
+  width: 800px;
+  min-height: 500px;
+  height: auto;
+  background-color: #2185c5;
+  position: relative;
+}
+
+.dash-title {
+  font-weight: 400;
+  color: #404040;
+  margin-bottom: 20px;
+}
+.plus-btn {
+  background-color: white;
+  border-color: white;
+  color: black;
+  border-radius: 50%;
+  float: right;
+}
+.plus-btn:hover {
+  background-color: white;
+  border-color: white;
+  color: black;
+  border-radius: 50%;
+  float: right;
+}
+
+.close {
+  background-color: white;
+  border: none;
+  font-size: 30px;
+}
+
+.modal-title {
+  font-size: 17px;
+  color: #4e4e4e;
+}
+
+.plus-btn:active {
+  background-color: white;
+  border-color: white;
+  color: black;
+  border-radius: 50%;
+  float: right;
+}
+
+.plus-btn:focus {
+  background-color: white;
+  border-color: white;
+  color: black;
+  border-radius: 50%;
+  float: right;
+}
+
+.cmn-btn {
+  border-radius: 20px;
+  color: #fff;
+  background-color: #302b3f;
+  border-color: #302b3f;
+  font-size: 14px;
+  float: right;
+}
+.cmn-btn:hover {
+  border-radius: 20px;
+  color: #fff;
+  background-color: #302b3f;
+  border-color: #302b3f;
+  font-size: 14px;
+  float: right;
+}
+.emp-id {
+  font-size: 12px;
+  background-color: #302b3f;
+  color: white;
+  padding: 2px;
+  border-radius: 5px;
+  float: right;
+  margin-top: -30px;
+}

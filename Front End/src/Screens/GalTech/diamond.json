@@ -1,0 +1,12 @@
+[  
+    {"id":1,"name":"Diamond-1", "price":"100","img":"diamond1.jpg","shape":"round","cut":"good","carat":"1","color":"a","clarity":"s11"},  
+    {"id":2,"name":"Diamond-2", "price":"1000","img":"diamond2.jpeg","shape":"round","cut":"good","carat":"5","color":"c","clarity":"s12"},  
+    {"id":3,"name":"Diamond-3", "price":"150","img":"diamond3.jpg","shape":"princess","cut":"verygood","carat":"1","color":"e","clarity":"s12"},  
+    {"id":4,"name":"Diamond-4", "price":"50000","img":"diamond4.jpg","shape":"cushion","cut":"good","carat":"29","color":"g","clarity":"s12"},  
+    {"id":5,"name":"Diamond-5", "price":"35000","img":"diamond5.jpg","shape":"pear","cut":"good","carat":"7","color":"i","clarity":"s12"},  
+    {"id":6,"name":"Diamond-6", "price":"500","img":"diamond6.jpg","shape":"round","cut":"good","carat":"1","color":"k","clarity":"s13"},  
+    {"id":7,"name":"Diamond-7", "price":"650","img":"diamond7.png","shape":"emerald","cut":"good","carat":"6","color":"m","clarity":"s11"},  
+    {"id":8,"name":"Diamond-8", "price":"40000","img":"diamond8.jpg","shape":"oval","cut":"verygood","carat":"9","color":"o","clarity":"s12"},  
+    {"id":9,"name":"Diamond-9", "price":"1100","img":"diamond9.jpeg","shape":"princess","cut":"good","carat":"1","color":"q","clarity":"s13"},  
+    {"id":10,"name":"Diamond-10", "price":"2000","img":"diamond10.jpeg","shape":"heart","cut":"excellent","carat":"10","color":"s","clarity":"s12"}  
+]  

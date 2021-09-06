@@ -1,0 +1,44 @@
+.add-btn{
+    background-color: #f77d15;
+    color: white;
+    border-color: #f77d15;
+}
+
+
+.add-btn:hover{
+    background-color: #f77d15;
+    color: white;
+    border-color: #f77d15;
+}
+
+.add-btn:active{
+    background-color: #f77d15;
+    color: white;
+    border-color: #f77d15;
+}
+
+.cmnMainTable th {
+
+    background-color: #ffffff;
+
+  }
+  
+  .cmnMainTableHd {
+    text-transform: uppercase;
+    font-size: 13px;
+  }
+  .r-alin{
+      float: right;
+      margin-right: 5px;
+  }
+  .btn-icon{
+    color: #f77d15;
+    padding-right: 15px;
+  }
+  .section-contact{
+      background-color: white;
+      padding: 20px;
+  }
+
+
+  

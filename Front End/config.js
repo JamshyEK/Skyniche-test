@@ -1,0 +1,1 @@
+exports.ipConfig="http://localhost:5000/"

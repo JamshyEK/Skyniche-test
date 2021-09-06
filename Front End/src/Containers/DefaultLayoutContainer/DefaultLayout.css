@@ -1,0 +1,13 @@
+.profile-div {
+    padding-right: 8px;
+
+    border-radius: 20px 20px 20px 20px;
+    background: #adb5bd63;
+    padding-left: 45px;
+    margin-top: -35px;
+
+  }
+.proname-text{
+    color: #5f5f5ffa;
+    font-size: 18px;
+}

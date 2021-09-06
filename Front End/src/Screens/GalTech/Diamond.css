@@ -1,0 +1,275 @@
+.hrline {
+    border-bottom: 1px solid #9c9b9b;
+    margin-top: 5%;
+  }
+  .center-icon {
+    text-align: center;
+  }
+  .icon-clr {
+    color: #9c9b9b;
+  }
+  .titlesec {
+    padding-top: 2px;
+    font-size: 14px;
+    font-weight: 200;
+  }
+  .main-content {
+    text-align: center;
+    margin-top: 25px;
+  }
+  .user-name {
+    text-transform: uppercase;
+    margin-top: 8px;
+    font-size: 15px;
+    font-weight: 400;
+    margin-bottom: -1px;
+  }
+  
+  .user-name2 {
+    margin-top: 8px;
+    font-size: 13px;
+    font-weight: 400;
+    margin-bottom: -1px;
+  }
+  .titlesec2 {
+    padding-top: 2px;
+    font-size: 13px;
+    font-weight: 200;
+  }
+  #profileImage {
+    /* width: 6rem;
+    height: 6rem;
+    border-radius: 50%;
+    background: #0c540c;
+    font-size: 3.5rem;
+    color: #fff;
+    text-align: center;
+    line-height: 10rem;
+    margin: 2rem 0; */
+    width: 3.5rem;
+    height: 3.5rem;
+    border-radius: 50%;
+    background: #0c540c;
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: #fff;
+    text-align: center;
+    line-height: 10rem;
+    border-radius: 50%;
+    line-height: 10rem;
+    margin: 0 auto;
+    padding: 10px;
+    position: relative;
+    background-color: rgb(248, 158, 158);
+  }
+  .profile-image {
+    top: 160px;
+    left: 160px;
+    width: 800px;
+    min-height: 500px;
+    height: auto;
+    background-color: #2185c5;
+    position: relative;
+  }
+  
+  .dash-title {
+    font-weight: 400;
+    color: #404040;
+    margin-bottom: 20px;
+  }
+  .plus-btn {
+    background-color: white;
+    border-color: white;
+    color: black;
+    border-radius: 50%;
+    float: right;
+  }
+  .plus-btn:hover {
+    background-color: white;
+    border-color: white;
+    color: black;
+    border-radius: 50%;
+    float: right;
+  }
+  
+  .close {
+    background-color: white;
+    border: none;
+    font-size: 30px;
+  }
+  
+  .modal-title {
+    font-size: 17px;
+    color: #4e4e4e;
+  }
+  
+  .plus-btn:active {
+    background-color: white;
+    border-color: white;
+    color: black;
+    border-radius: 50%;
+    float: right;
+  }
+  
+  .plus-btn:focus {
+    background-color: white;
+    border-color: white;
+    color: black;
+    border-radius: 50%;
+    float: right;
+  }
+  
+  .cmn-btn {
+    border-radius: 20px;
+    color: #fff;
+    background-color: #302b3f;
+    border-color: #302b3f;
+    font-size: 14px;
+    float: right;
+  }
+  .cmn-btn:hover {
+    border-radius: 20px;
+    color: #fff;
+    background-color: #302b3f;
+    border-color: #302b3f;
+    font-size: 14px;
+    float: right;
+  }
+  .emp-id {
+    font-size: 12px;
+    background-color: #302b3f;
+    color: white;
+    padding: 2px;
+    border-radius: 5px;
+    float: right;
+    margin-top: -30px;
+  }
+  .imgDiamond{
+      width: 100px;
+      height: 100px;
+  }
+
+.form-control{
+    width: 60%;
+}
+
+
+
+
+
+
+  input[type="range"] {
+    --minRangePercent: 0%;
+    --maxRangePercent: 0%;
+    height: .4rem;
+  }
+  input[type="range"]:invalid {
+    box-shadow: none;
+  }
+  
+  input[type="range"]::-webkit-slider-thumb {
+  
+  }
+  
+  .min-max-slider {
+    position: relative;
+    width: 200px;
+    text-align: center;
+    margin-bottom: 50px;
+  }
+  
+  .min-max-slider::focus {
+    oultine: none;
+  }
+  
+  input::focus {
+    outline: none;
+  }
+  
+  .min-max-slider > label {
+    display: none;
+  }
+  
+  .min-max-slider > input {
+    cursor: pointer;
+    position: absolute;
+  }
+  
+  /* webkit specific styling */
+  .min-max-slider > input {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    outline: none !important;
+    background: transparent;
+  }
+  .min-max-slider > input.min {
+    background-image: linear-gradient(
+      to right,
+      silver 0%,
+      silver var(--minRangePercent),
+      orange var(--minRangePercent),
+      orange 100%
+    );
+  }
+  
+  .min-max-slider > input.max {
+    background-image: linear-gradient(
+      to right,
+      orange 0%,
+      orange var(--maxRangePercent),
+      silver var(--maxRangePercent),
+      silver 100%
+    );
+  }
+  
+  .min-max-slider > input::-webkit-slider-runnable-track,
+  .min-max-slider > input::-moz-range-track,
+  .min-max-slider > input::-ms-track {
+    box-sizing: border-box;
+    border: none;
+    height: 4px;
+    background: orange;
+    border-radius: 8px;
+    height: 10px;
+    background-color: transparent;
+    background-image: linear-gradient(orange, orange),
+      linear-gradient(orange, orange);
+    background-size: var(--sx) 10px, calc(100% - var(--sx)) 4px;
+    background-position: left center, right center;
+    background-repeat: no-repeat;
+  }
+  
+  .min-max-slider > input::focus {
+    outline: none;
+  }
+  
+  .min-max-slider > input.max::-moz-range-progress {
+    background: orange;
+    border-radius: 4px;
+  }
+  
+  .min-max-slider > input.min::-moz-range-progress {
+    height: 0.6em;
+    background: silver;
+    border-radius: 4px;
+  }
+  
+  input[type="range"]::-webkit-slider-thumb,
+  input[type="range"]::-moz-range-thumb {
+    -webkit-appearance: none; /* Override default look */
+    -moz-appearance: none;
+    appearance: none;
+    width: 20px; /* Set a specific slider handle width */
+    height: 20px; /* Slider handle height */
+    background: orange; /* Green background */
+    cursor: pointer; /* Cursor on hover */
+    border: none;
+    color: 1px solid orange;
+    border-radius: 50%;
+    /* box-shadow: -205px 0 0 200px hsl(100, 100%, 40%); */
+  }
+  
+  .min-max-slider > input::-webkit-slider-runnable-track {
+    cursor: pointer;
+  }
+  
